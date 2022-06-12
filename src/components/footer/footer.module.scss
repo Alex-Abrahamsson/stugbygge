@@ -1,0 +1,27 @@
+@import '../../styles/variables.scss';
+
+.ContentContainer {
+    width: $max-container-width;
+    display: flex;
+    justify-content: center;
+}
+
+.FooterContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: $color-light-grey;
+
+    p {
+        margin: 4px 8px;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: $max-container-width) {
+	.ContentContainer {
+        width: 100%;
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+}

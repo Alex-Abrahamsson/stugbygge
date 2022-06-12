@@ -1,0 +1,30 @@
+@import '../../styles/variables.scss';
+
+.ContentContainer {
+    width: $max-container-width;
+}
+
+.HeaderContainer {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom left, #7AD487, #37D8AD);
+}
+
+.Logo {
+    height: 36px;
+    pointer-events: none;
+    display:block;
+    margin-right: 50%;
+    margin-left: auto;
+}
+
+@media screen and (max-width: $max-container-width) {
+	.ContentContainer {
+        width: 100%;
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+}
