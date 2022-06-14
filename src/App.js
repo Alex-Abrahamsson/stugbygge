@@ -1,6 +1,7 @@
 import "./App.scss";
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Container } from "react-bootstrap";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import Home from "./pages/home/home";
@@ -12,7 +13,7 @@ import Storstugan from "./pages/stugbygget/storstugan";
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      <Container className="App">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -22,7 +23,7 @@ function App() {
           <Route path="/stugbygget/storStugan" element={<Storstugan />} />
         </Routes>
         <Footer />
-      </div>
+      </Container>
     </BrowserRouter>
   );
 }
