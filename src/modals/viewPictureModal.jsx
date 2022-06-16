@@ -4,9 +4,11 @@ import { Button, Image, Modal } from "react-bootstrap";
 function ViewPictureModal(props) {
   const [imgId, setImgId] = useState();
 
+
+
   return (
     <Modal
-      onEnter={() => setImgId(props.imgId)}
+      onEnter={() => setImgId(props.imagesrc)} // Set this string to clicked target
       {...props}
       size="xl"
       aria-labelledby="contained-modal-title-vcenter"

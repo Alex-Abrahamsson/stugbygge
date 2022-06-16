@@ -28,6 +28,15 @@ function Friggan() {
           />
         </Col>
       </Row>
+      <Row>
+        <Col>
+          <Image
+            className={styles.images}
+            src="https://drive.google.com/thumbnail?id=13W6F8uYkfX3aO6Nt-T-_RRrGiFYeco6D"
+            alt="drive image"
+          />
+        </Col>
+      </Row>
     </Container>
   );
 }
