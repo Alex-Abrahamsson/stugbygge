@@ -1,4 +1,4 @@
-import React, { useState, setState } from "react";
+import React, { useState } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import styles from "./dasset.module.scss"
 import ViewPictureModal from "../../../modals/viewPictureModal";
@@ -6,7 +6,7 @@ import ViewPictureModal from "../../../modals/viewPictureModal";
 function Dasset() {
   const [modalShow, setModalShow] = useState(false);
 
- const balle = () => {
+ const balle = (event) => {
   return "12EbFehupgYiNZAF0E4O7fG6nd7R4twbP";
  }
 

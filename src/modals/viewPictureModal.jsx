@@ -13,9 +13,9 @@ function ViewPictureModal(props) {
       size="xl"
       aria-labelledby="contained-modal-title-vcenter"
       centered
+      onClick={() => console.log(props.imagesrc)}
     >
       <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">Header</Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <Image
