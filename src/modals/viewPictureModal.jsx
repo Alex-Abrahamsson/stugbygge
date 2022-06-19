@@ -5,7 +5,6 @@ function ViewPictureModal(props) {
   const [imgId, setImgId] = useState();
 
 
-
   return (
     <Modal
       onEnter={() => setImgId(props.imagesrc)} // Set this string to clicked target
@@ -13,7 +12,6 @@ function ViewPictureModal(props) {
       size="xl"
       aria-labelledby="contained-modal-title-vcenter"
       centered
-      onClick={() => console.log(props.imagesrc)}
     >
       <Modal.Header closeButton>
       </Modal.Header>

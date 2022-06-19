@@ -7,13 +7,13 @@ function Dasset() {
   const [modalShow, setModalShow] = useState(false);
 
  const balle = (event) => {
-  return "12EbFehupgYiNZAF0E4O7fG6nd7R4twbP";
+  return event.target.src.split("=").pop().toString();
  }
 
   return (
     <Container>
       <Row>
-        <Col><Image onClick={() => setModalShow(true)} className={styles.images} src="https://drive.google.com/thumbnail?id=12EbFehupgYiNZAF0E4O7fG6nd7R4twbP" alt="drive image"/></Col>
+        <Col><Image onClick={(event) => balle(event)} className={styles.images} src="https://drive.google.com/thumbnail?id=12EbFehupgYiNZAF0E4O7fG6nd7R4twbP" alt="drive image"/></Col>
         <Col><Image onClick={() => setModalShow(true)} className={styles.images} src="https://drive.google.com/thumbnail?id=12DO-NC9e3ImELtOmJpq9iG3h204wAl5m" alt="drive image"/></Col>
         <Col><Image onClick={() => setModalShow(true)} className={styles.images} src="https://drive.google.com/thumbnail?id=120aMp2dXu3hCT0nlaCRhBqaFkhcn6AHl" alt="drive image"/></Col>
         <Col><Image onClick={() => setModalShow(true)} className={styles.images} src="https://drive.google.com/thumbnail?id=11pmmaxYgy05ZFM2_u0IDk7rfw5SrONYF" alt="drive image"/></Col>
@@ -23,7 +23,7 @@ function Dasset() {
         <Col><Image onClick={() => setModalShow(true)} className={styles.images} src="https://drive.google.com/thumbnail?id=11RFY9i0TQkPQpA1N59RGlM3LKXm6h299" alt="drive image"/></Col>
         <Col><Image onClick={() => setModalShow(true)} className={styles.images} src="https://drive.google.com/thumbnail?id=119nsMtfz58CrqZfI9FO0eO45s9Fl6NB1" alt="drive image"/></Col>
       </Row>
-      <ViewPictureModal imagesrc={balle()} show={modalShow} onHide={() => setModalShow(false)}/>
+      <ViewPictureModal imagesrc={(event) => balle(event)} show={modalShow} onHide={() => setModalShow(false)}/>
     </Container>
   );
 }
