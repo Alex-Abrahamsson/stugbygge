@@ -1,0 +1,26 @@
+export default [
+  {
+    original:
+      "https://drive.google.com/uc?export=view&id=13W6F8uYkfX3aO6Nt-T-_RRrGiFYeco6D",
+    thumbnail:
+      "https://drive.google.com/uc?export=view&id=13W6F8uYkfX3aO6Nt-T-_RRrGiFYeco6D",
+  },
+  {
+    original:
+      "https://drive.google.com/uc?export=view&id=14xplaaZIOI1GOcNZHcg75tLqLrMZcRbo",
+    thumbnail:
+      "https://drive.google.com/uc?export=view&id=14xplaaZIOI1GOcNZHcg75tLqLrMZcRbo",
+  },
+  {
+    original:
+      "https://drive.google.com/uc?export=view&id=13W6F8uYkfX3aO6Nt-T-_RRrGiFYeco6D",
+    thumbnail:
+      "https://drive.google.com/uc?export=view&id=13W6F8uYkfX3aO6Nt-T-_RRrGiFYeco6D",
+  },
+  {
+    original:
+      "https://drive.google.com/uc?export=view&id=14xplaaZIOI1GOcNZHcg75tLqLrMZcRbo",
+    thumbnail:
+      "https://drive.google.com/uc?export=view&id=14xplaaZIOI1GOcNZHcg75tLqLrMZcRbo",
+  },
+];

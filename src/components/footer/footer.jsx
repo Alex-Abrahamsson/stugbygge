@@ -6,7 +6,6 @@ function Footer() {
   return (
     <footer className={style.FooterContainer}>
       <div className={style.ContentContainer}>
-        <p>Footer</p>
       </div>
     </footer>
   );

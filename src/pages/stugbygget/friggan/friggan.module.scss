@@ -1,6 +1,23 @@
-@import '../../../styles/variables.scss';
+@import "../../../styles/variables.scss";
 
-.images{
-    border-radius: 15px;
-    padding: 5px 0 5px 0;
+.ContentContainer {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: $max-container-width) {
+  .ContentContainer {
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+}
+
+.MyGallery {
+  img {
+    border-radius: 5px;
+  }
+  button {
+    border-radius: 10px;
+  }
 }

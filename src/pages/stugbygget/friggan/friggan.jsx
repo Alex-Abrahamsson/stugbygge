@@ -1,42 +1,24 @@
+import "react-image-gallery/styles/css/image-gallery.css";
 import React from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
+import frigganImages from "../../../data/frigganImages";
+import { Container } from "react-bootstrap";
+import ImageGallery from "react-image-gallery";
 import styles from "./friggan.module.scss";
 
 function Friggan() {
   return (
-    <Container>
-      <Row>
-        <Col>
-          <Image
-            className={styles.images}
-            src="https://drive.google.com/thumbnail?id=12ZEKlXqYAU-78hrSrikcjPDXeoWuHrWx"
-            alt="drive image"
-          />
-        </Col>
-        <Col>
-          <Image
-            className={styles.images}
-            src="https://drive.google.com/thumbnail?id=12USwyKV7q4W-FYRkhMvKVxJWN8-6WkG1"
-            alt="drive image"
-          />
-        </Col>
-        <Col>
-          <Image
-            className={styles.images}
-            src="https://drive.google.com/thumbnail?id=12Rv374XO0KFL0kflDI3ab3WVWiTshJqN"
-            alt="drive image"
-          />
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <Image
-            className={styles.images}
-            src="https://drive.google.com/thumbnail?id=13W6F8uYkfX3aO6Nt-T-_RRrGiFYeco6D"
-            alt="drive image"
-          />
-        </Col>
-      </Row>
+    <Container className={styles.ContentContainer}>
+      <ImageGallery
+        additionalClass={styles.MyGallery}
+        disableSwipe={false}
+        autoPlay={true} // set false or comment if donnot want to auto play
+        showFullscreenButton={true} // set false to hide button
+        showPlayButton={true} // set false to hide button
+        items={frigganImages}
+        showThumbnails={true}
+        showNav={true}
+        thumbnailPosition="top"
+      />
     </Container>
   );
 }
