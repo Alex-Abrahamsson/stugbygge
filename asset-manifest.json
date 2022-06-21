@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.9d477ccc.css",
-    "main.js": "/react-gh-pages/static/js/main.f53325a6.js",
-    "static/js/787.3806cc14.chunk.js": "/react-gh-pages/static/js/787.3806cc14.chunk.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.9d477ccc.css.map": "/react-gh-pages/static/css/main.9d477ccc.css.map",
-    "main.f53325a6.js.map": "/react-gh-pages/static/js/main.f53325a6.js.map",
-    "787.3806cc14.chunk.js.map": "/react-gh-pages/static/js/787.3806cc14.chunk.js.map"
+    "main.css": "/stugbygge/static/css/main.9d477ccc.css",
+    "main.js": "/stugbygge/static/js/main.f9972665.js",
+    "static/js/787.3806cc14.chunk.js": "/stugbygge/static/js/787.3806cc14.chunk.js",
+    "index.html": "/stugbygge/index.html",
+    "main.9d477ccc.css.map": "/stugbygge/static/css/main.9d477ccc.css.map",
+    "main.f9972665.js.map": "/stugbygge/static/js/main.f9972665.js.map",
+    "787.3806cc14.chunk.js.map": "/stugbygge/static/js/787.3806cc14.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d477ccc.css",
-    "static/js/main.f53325a6.js"
+    "static/js/main.f9972665.js"
   ]
 }
