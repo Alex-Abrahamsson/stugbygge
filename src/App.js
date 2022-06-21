@@ -16,7 +16,7 @@ function App() {
       <Container className="App">
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/stugbygge" element={<Home />} />
           <Route path="/myCv" element={<MyCv />} />
           <Route path="/stugbygget/dasset" element={<Dasset />} />
           <Route path="/stugbygget/friggan" element={<Friggan />} />
