@@ -53,4 +53,16 @@ export default [
     thumbnail:
       "https://drive.google.com/uc?export=view&id=14QFUpO2uLADFB7QY3o8U9WgsKa7JBOKc",
   },
+  {
+    original:
+      "https://drive.google.com/uc?export=view&id=15YdRVSq0_UiVbRoHZ3EVqp6XwhqDSfC1",
+    thumbnail:
+      "https://drive.google.com/uc?export=view&id=15YdRVSq0_UiVbRoHZ3EVqp6XwhqDSfC1",
+  },
+  {
+    original:
+      "https://drive.google.com/uc?export=view&id=15Jdrb3YufFa7F7FB3_qdj0nJTRkJYkB3",
+    thumbnail:
+      "https://drive.google.com/uc?export=view&id=15Jdrb3YufFa7F7FB3_qdj0nJTRkJYkB3",
+  },
 ];
